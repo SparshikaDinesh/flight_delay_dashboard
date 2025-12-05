@@ -1,4 +1,5 @@
 # ✈️ Flight Delay Prediction Dashboard
+🚀 **Live Demo:** Deployment in progress — run locally using instructions below.
 
 Interactive Streamlit dashboard to analyze US flight delays and predict whether a flight is **Delayed (1)** or **On-Time (0)**.
 
@@ -53,7 +54,34 @@ flight_delay_dashboard/
 │   ├── flights_sample_3m.csv
 │   ├── processed_flights.csv
 │   └── dictionary.html
+
+
+## 🖥️ How to Run This Project Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/SparshikaDinesh/flight_delay_dashboard.git
+   cd flight_delay_dashboard
+
 ├── models/
 │   ├── random_forest_model.pkl
 │   └── xgboost_model.pkl
+
+2. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+
+
+   ## 📬 Contact
+
+If you want to collaborate or hire me for Data/ML projects:
+
+**Sparshika Ajmaan Dinesh Kumar**  
+📧 sparshikaajmaan707@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/sparshikaajmaan/
+
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
 
